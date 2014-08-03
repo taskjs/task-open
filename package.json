@@ -1,0 +1,32 @@
+{
+  "name": "task-open",
+  "version": "0.1.0",
+  "main": "lib/open.js",
+  "description": "Open a file or url in the user's preferred application",
+  "homepage": "https://github.com/taskjs/task-open",
+  "bugs": "https://github.com/taskjs/task-open/issues",
+  "author": {
+    "name": "Yuanyan Cao",
+    "email": "yuanyan.cao@gmail.com"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/taskjs/task-open"
+  },
+  "licenses": [
+    {
+      "type": "MIT"
+    }
+  ],
+  "keywords": [
+    "task",
+    "open"
+  ],
+  "dependencies": {
+    "execution": "^0.1.2",
+    "open": "0.0.5"
+  },
+  "scripts": {
+    "test": "node test/open_test"
+  }
+}
